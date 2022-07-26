@@ -4,13 +4,17 @@
 
 link test: 2 => https://test-with-harmonyx.herokuapp.com/test2
 body: => (เป็น json นะครับ)
+
+```json
 {
     "totalAmount": 250,
     "cash": 1000
 }
+```
 
 link test: 3 => https://test-with-harmonyx.herokuapp.com/test3
 body: => (เป็น json นะครับ)
+```json
 {
     "product": [
         {
@@ -27,3 +31,4 @@ body: => (เป็น json นะครับ)
         }
     ]
 }
+```
