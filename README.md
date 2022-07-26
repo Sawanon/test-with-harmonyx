@@ -2,7 +2,7 @@
 
 ข้อ 1 รันใน node ใช้ได้เลยนะครับ ส่วนข้อ 2 และ 3 ผมทำเป็น api
 
-test: 1 => test1.js
+test: 1 => [a relative link](test1.js)
 
 link test: 2 => https://test-with-harmonyx.herokuapp.com/test2
 body: => (เป็น json นะครับ)
