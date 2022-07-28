@@ -9,7 +9,7 @@
 
 test: 1 => [test1.js](test1.js)
 
-link test: 2 => (POST) https://test-with-harmonyx.herokuapp.com/test2
+link test: 2 => (method: POST) https://test-with-harmonyx.herokuapp.com/test2
 body: => (เป็น json นะครับ)
 
 ```json
@@ -19,7 +19,7 @@ body: => (เป็น json นะครับ)
 }
 ```
 
-link test: 3 => (POST) https://test-with-harmonyx.herokuapp.com/test3
+link test: 3 => (method: POST) https://test-with-harmonyx.herokuapp.com/test3
 body: => (เป็น json นะครับ)
 ```json
 {
